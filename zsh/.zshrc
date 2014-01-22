@@ -23,3 +23,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs
 source $HOME/.zshenv
+
+# Boxen
+if [ -f "/opt/boxen/env.sh" ]
+  then source "/opt/boxen/env.sh"
+fi
